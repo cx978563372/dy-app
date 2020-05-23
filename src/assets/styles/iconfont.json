@@ -1,0 +1,79 @@
+{
+  "id": "1829527",
+  "name": "dy",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "356463",
+      "name": "扫描",
+      "font_class": "saomiao",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "13496503",
+      "name": "下箭头",
+      "font_class": "sjt",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12512221",
+      "name": "jia",
+      "font_class": "jia1",
+      "unicode": "e7a5",
+      "unicode_decimal": 59301
+    },
+    {
+      "icon_id": "3271894",
+      "name": "jia",
+      "font_class": "jia",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "3841138",
+      "name": "message",
+      "font_class": "message",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "10267591",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "10421748",
+      "name": "live",
+      "font_class": "zhibo",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "11794103",
+      "name": "分享",
+      "font_class": "fenxiang",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "13084166",
+      "name": "heart",
+      "font_class": "heart",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "14155064",
+      "name": "抖音",
+      "font_class": "tiktok-copy",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
