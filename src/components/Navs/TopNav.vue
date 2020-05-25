@@ -34,7 +34,7 @@ export default {
             this.line = 'line' + index;
         },
         alertLive () {
-            alert('无直播模块')
+            alert('臣妾不会做啊！')
         },
         ChangeSearch (e) {
             e.preventDefault()

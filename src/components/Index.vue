@@ -33,6 +33,9 @@ export default {
 </script>
 
 <style>
+.index{
+  overflow-x: hidden;
+}
   .search-enter-active, .search-leave-active {
     transition: all .2s
   }

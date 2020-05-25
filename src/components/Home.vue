@@ -55,6 +55,7 @@ export default {
     position: relative;
     top: 0;
     left: 0;
+    overflow: hidden;
   }
   .up-enter-active, .up-leave-active {
     transition: all .2s

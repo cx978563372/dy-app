@@ -2,7 +2,7 @@
   <div class="messges">
       <div class="top">
         <div class="title">消息</div>
-        <div class="create">创建群聊</div>
+        <div class="create" @click="CreateShow">创建群聊</div>
       </div>
       <div class="nav">
         <div class="fs">
@@ -63,10 +63,14 @@
           </div>
         </div>        
       </div>
+      <transition name="up">
+      <create v-if="isCreateShow" @getShow="getShow"></create>
+      </transition>
   </div>
 </template>
 
 <script>
+import Create from './Create'
 export default {
   name: 'messges',
   data () {
@@ -114,8 +118,12 @@ export default {
           age: '',
           add: ""
         }
-      ]
+      ],
+      isCreateShow: false
     }
+  },
+  components: {
+    Create
   },
   methods: {
     ageShow(index){
@@ -138,12 +146,25 @@ export default {
       }else{
         return false
       }
+    },
+    CreateShow () {
+      this.isCreateShow = true
+    },
+    getShow (data) {
+      this.isCreateShow = data
     }
   }
 }
 </script>
 
 <style scoped>
+.up-enter-active, .up-leave-active {
+  transition: all .2s
+}
+.up-enter, .up-leave-to {
+  opacity: 1;
+  transform: translateY(100%);
+}
 .messges{
   width: 100%;
   min-height: 100vh;

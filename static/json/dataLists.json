@@ -3,7 +3,16 @@
     "dataLists": [
         {
             "id": "1",
-            "url": "'@/assets/videos/v1.mp4'",
+            "url": "/assets/videos/v1.mp4",
+            "sub": "66.5w",
+            "msg": "2.5w",
+            "name": "人民网",
+            "desc": "男同胞们，来看兵姐姐啦!",
+            "mic": "人民网的原创音乐-"
+        },
+        {
+            "id": "2",
+            "url": "'/assets/videos/v2.mp4'",
             "sub": "66.5w",
             "msg": "2.5w",
             "name": "人民网",
